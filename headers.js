@@ -134,7 +134,7 @@ function ignoreUrl(url, type) {
 }
 
 function ignoreType(type) {
-  if (['Image', 'Stylesheet', 'Media', 'Font', 'Script'].indexOf(type) >= 0) {
+  if (['Image', 'Stylesheet', 'Media', 'Font'].indexOf(type) >= 0) {
     return true;
   }
   return false;
